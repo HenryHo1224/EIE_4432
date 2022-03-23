@@ -1,0 +1,21 @@
+.title{
+    color:red;
+}
+
+.formula{
+    font-weight: bold;
+}
+
+.root{
+    font-style: italic;
+}
+
+input {
+    width:10%;
+    border-style: solid;
+}
+
+#x{
+    font-style: italic;
+
+}

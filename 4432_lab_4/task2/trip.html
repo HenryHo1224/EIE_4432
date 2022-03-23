@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+    <title>City Trip</title>
+    <script src="trip.js"></script>
+</head>
+<body>
+    <h1>Fuel Costs from NYC</h1>
+    <p>
+        <div>Author: Henry</div>
+        <div>student ID: 20026528d</div>
+    </p>
+    <table>
+        <form action = "trip.php" method = "post" id = "formid">
+            <tr>
+                <td>
+                    Average MPG:
+                </td>
+                <td>
+                    <input type="number" id="input1" class="input_all" name="mpg">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Average Cost of a Gallon of Fuel: 
+                </td>
+                <td>
+                    <input type="number" id="input2" class="input_all" name="fuel">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Which city are you visiting?
+                </td>
+                <td>
+                    <select name="city" id="city"  >
+                        <option selected="selected" ></option>
+                        <option value="Atlanta">Atlanta</option>
+                        <option value="Boston">Boston</option>
+                        <option value="Chicago">Chicago</option>
+                        <option value="Detroit">Detroit</option>
+                        <option value="Miami">Miami</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                        <input type="button" value="My Fuel Costs" onclick="check()">
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>

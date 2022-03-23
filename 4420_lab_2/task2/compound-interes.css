@@ -1,0 +1,12 @@
+.title{
+    color:blue;
+}
+
+
+.result_table , .result_table_t, .result_table_c{
+    border-color: black;
+    border-style: solid;
+    border-width:1px;
+
+    font-weight: bold;
+}

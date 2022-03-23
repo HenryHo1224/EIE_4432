@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--	Author: Ho Ching Hin, Wong Chun Yiu
+		Date:	Oct 11, 2021
+		File:	main.html
+		Purpose: HTML Practice
+-->
+<html>
+<head>
+	<title>Employee Management</title>
+</head>
+<body>
+	<h1>Employee Records Management</h1>
+	<p>
+	Author: Ho Ching Hin, Wong Chun Yiu<br>
+	Student ID: 20026528D, 20017082D
+	</p>
+	<form action="show-all.php" method="get">
+		Click this button to see the existing employee information:
+		<input type="submit" value="Show All info">
+	</form>
+	<br>
+	<form action="insert.php" method="post">
+		<table>
+			<tr>
+			<td>Employee ID:</td>
+			<td><input type="text" id="empID" name="empID"></td>
+			</tr>
+			<tr>
+			<td>First name:</td>
+			<td><input type="text" id="fname" name="fname"></td>
+			</tr>
+			<tr>
+			<td>Last Name:</td>
+			<td><input type="text" id="lname" name="lname"></td>
+			</tr>
+			<tr>
+			<td>Job Title:</td>
+			<td><input type="text" id="jtitle" name="jtitle"></td>
+			</tr>
+			<tr>
+			<td>Hourly Wage:</td>
+			<td><input type="text" id="hrwage" name="hrwage"></td>
+			</tr>
+			<tr>
+			<td>Hours Worked:</td>
+			<td><input type="text" id="worked" name="worked"></td>
+			<td><input type="submit" value="Submit to Insert"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

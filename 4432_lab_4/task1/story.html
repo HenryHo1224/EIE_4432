@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+    <title>Story Generator</title>
+    <link rel="stylesheet" href="story.css">
+    <script type="text/javascript" src="story.js"></script>
+</head>
+<body>
+    <h1>Story Generator</h1>
+    <p>
+        <div>Author : Henry</div>
+        <div>Student ID: 20026528D</div>
+    </p>
+    <p>
+        Enter appropriate values in all of the text boxes. 
+        Then click the Done button to generate a story with ypur enteres calues plugged into it.
+    </p>
+    <h1 class="StoryTitle">A Wise Man</h1>
+    <p id="content">
+        People have been coming to the wise man, complaining about the same problens every time. One day he told them a <b class="MissingText" id="1">[missing text]</b>, and everyone <b class="MissingText" id="2">[missing text]</b>
+        in laughter. After a couple of <b class="MissingText" id="3">[missing text]</b>, he told them a smae joke and 
+        only a few of them smiled. When he told the same joke for the third time no one <b class="MissingText" id="4">[missing text]</b> 
+        anymore. The wise man smiled and said: "You cannot laugh at the same joke over and over. So why are you 
+        <b class="MissingText" id="5">[missing text]</b> crying about the same problem?"
+    </p>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    noun:
+                </td>
+                <td>
+                    <input type="text" id="input1" class="input_all">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    past tense verb:
+                </td>
+                <td>
+                    <input type="text" id="input2" class="input_all">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    noun:
+                </td>
+                <td>
+                    <input type="text" id="input3" class="input_all">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    past tense verb:
+                </td>
+                <td>
+                    <input type="text" id="input4" class="input_all">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    adverb:
+                </td>
+                <td>
+                    <input type="text" id="input5" class="input_all">
+                </td>
+            </tr>
+        </table>
+        <p>
+            
+            <input type="button" value="Done" onclick="done()">
+            <input type="button" value="Restart" onclick="restart()">
+            
+        </p>
+    </form>
+</body>

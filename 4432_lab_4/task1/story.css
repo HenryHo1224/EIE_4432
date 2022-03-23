@@ -1,0 +1,22 @@
+.StoryTitle{
+    display: flex;
+    justify-content: center;
+}
+
+.MissingText{
+    color: red;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.InputBox{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+table,tr,td{
+    text-align: right;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="compound-interes.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="compound-interes.css">
+    </head>
+    <body>
+        <h1 class="title">Compound Interest Calculator</h1>
+        <p>
+            <div>Author: Ho Ching Hin</div>
+            <div>Student ID: 20026528D</div>
+        </p>
+        <table>
+            <tr>
+                <td>Initial deposit:</td>
+                <td><input type="number" id="deposit"></td>
+            </tr>
+            <tr>
+                <td>Annual interest rate:</td>
+                <td><input type="number" id="rate">%</td>
+            </tr>
+            <tr>
+                <td>Years to grow:</td>
+                <td><input type="number" id="year"></td>
+            </tr>
+        
+        </table>
+        
+        <button  id="button">Calculate</button>
+        <div class="table">
+        <table class="result_table_t">
+            <tr class="result_table">
+                <th class="result_table">Year</th>
+                <th class="result_table">Starting Value</th>
+                <th class="result_table">Interest Earned</th>
+                <th class="result_table">Ending Value</th>
+            </tr>
+        </table>
+        </div>
+    </body>
+</html>

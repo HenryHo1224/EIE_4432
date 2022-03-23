@@ -1,0 +1,42 @@
+<html>
+    <script type="text/javascript">
+        function open_bar(){
+            document.getElementById("left_side_bar").style.width = "250px";
+        }
+        function close_bar(){
+            document.getElementById("left_side_bar").style.width = "0px";
+        }
+    </script>
+    <head>
+        <title>日常生活</title>
+        <link rel="stylesheet" href="C:/xampp/htdocs/1_year/1_year_p2.css">
+        
+    </head>
+    <body>
+        
+        <div class="title">
+            日常生活
+        </div>
+
+        <span onclick="open_bar()" class="three_bar">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+         </span> 
+
+
+        <div id="left_side_bar" class="left_bar">
+            <ul>
+                <a href="javascript:void(0)" class="closebtn" onclick="close_bar()">&times;</a>
+                <li><a href="C:/xampp/htdocs/1_year/1_year_first_page.html">目錄</a></li>
+                <li><a href="C:/xampp/htdocs/1_year/1_year_p3.html">旅行</a></li>
+                <li><a href="C:/xampp/htdocs/1_year/1_year_p4.html">節日</a></li>
+                <li><a href="C:/xampp/htdocs/1_year/1_year_p5.html">????</a></li>
+            </ul>
+        </div> 
+
+        <div class="trip">
+            <img src="C:\Users\User\Desktop\1 year\trip\golden.jpeg" class="trip_1">
+        </div>
+    </body>
+</html>
